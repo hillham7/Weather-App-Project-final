@@ -85,3 +85,9 @@ body {
 .card {
   border-radius: 10px;
 }
+
+.source-code {
+  font-family: "Fjalla One", sans-serif;
+  padding-left: 20%;
+  font-size: 15px;
+}
