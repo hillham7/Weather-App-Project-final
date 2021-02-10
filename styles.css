@@ -1,0 +1,87 @@
+body {
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+
+.city {
+  font-family: "Fjalla One", sans-serif;
+  padding-top: 20px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.date {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.temperature {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.fa-cloud {
+  text-align: center;
+  font-size: 15px;
+  color: blue;
+}
+
+.rain {
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.fa-umbrella {
+  text-align: center;
+  font-size: 15px;
+  color: aqua;
+}
+
+.humidity {
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.submit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  border-radius: 5px;
+  background: blue;
+}
+
+.search {
+  position: absolute;
+}
+
+.card-title {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card-text {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-body {
+  padding: -5px;
+}
+
+.card {
+  border-radius: 10px;
+}
