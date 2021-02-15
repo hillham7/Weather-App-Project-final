@@ -5,51 +5,48 @@ body {
     #e3eeff 99%,
     #e3eeff 100%
   );
+  font-family: "Fjalla One", sans-serif;
 }
 
-.city {
-  font-family: "Fjalla One", sans-serif;
-  padding-top: 20px;
-  font-size: 35px;
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+  display: block;
   text-align: center;
-  font-weight: bolder;
+  line-height: 28px;
 }
 
-.date {
-  font-family: "Fjalla One", sans-serif;
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
   font-size: 20px;
+  font-weight: 100;
+  display: block;
   text-align: center;
-  font-weight: bolder;
-}
-
-.temperature {
-  font-family: "Fjalla One", sans-serif;
-  font-size: 15px;
-  text-align: center;
+  line-height: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .fa-cloud {
-  text-align: center;
   font-size: 15px;
   color: blue;
 }
 
-.rain {
-  font-family: "Fjalla One", sans-serif;
-  text-align: center;
-  font-size: 15px;
-}
-
 .fa-umbrella {
-  text-align: center;
   font-size: 15px;
   color: aqua;
-}
-
-.humidity {
-  font-family: "Fjalla One", sans-serif;
-  text-align: center;
-  font-size: 15px;
 }
 
 .submit {
@@ -66,14 +63,12 @@ body {
 }
 
 .card-title {
-  font-family: "Fjalla One", sans-serif;
   font-size: 20px;
   font-weight: bolder;
   text-align: center;
 }
 
 .card-text {
-  font-family: "Fjalla One", sans-serif;
   font-size: 15px;
   text-align: center;
 }
@@ -87,7 +82,6 @@ body {
 }
 
 .source-code {
-  font-family: "Fjalla One", sans-serif;
   padding-left: 10%;
   font-size: 15px;
 }
