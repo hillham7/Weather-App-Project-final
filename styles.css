@@ -36,6 +36,7 @@ li {
 small {
   padding: 10px;
   padding-top: 10px;
+  font-size: 15px;
 }
 
 .weather-app-wrapper {
@@ -46,31 +47,6 @@ small {
 .weather-app {
   border: 1px solid #dadde1;
   border-radius: 10px;
-}
-
-.fa-cloud {
-  font-size: 25px;
-  color: blue;
-  margin-right: 20px;
-}
-
-.fa-umbrella {
-  font-size: 25px;
-  color: aqua;
-  margin-right: 20px;
-}
-
-.submit {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px;
-  border-radius: 5px;
-  background: blue;
-}
-
-.search {
-  position: absolute;
 }
 
 .card-title {
@@ -90,9 +66,4 @@ small {
 
 .card {
   border-radius: 10px;
-}
-
-.source-code {
-  padding-left: 10%;
-  font-size: 15px;
 }
