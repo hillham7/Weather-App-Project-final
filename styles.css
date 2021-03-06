@@ -1,10 +1,5 @@
 body {
-  background-image: linear-gradient(
-    to top,
-    #f3e7e9 0%,
-    #e3eeff 99%,
-    #e3eeff 100%
-  );
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
   font-family: "Fjalla One", sans-serif;
 }
 
@@ -66,4 +61,13 @@ small {
 
 .card {
   border-radius: 10px;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
