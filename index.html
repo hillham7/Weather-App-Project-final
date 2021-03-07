@@ -26,18 +26,20 @@
                 <form id="search-form" class="mb-2">
                     <div class="row">
                         <div class="col-12">
-                            <input type="search" placeholder="Enter city here..." id="city-input" autocomplete="off" />
+                            <input type="search" class="search" placeholder="Enter city here..." id="city-input" autocomplete="off" />
                         </div>
                     </div>    
                     <div class="row">
                         <div class="col-12">
-                            <input type="submit" value="Search" class="btn btn-info" id="btn-search" />
+                            <input type="submit" value="Search" class="btn-btn-info" id="btn-search"/>
                         </div>
                     </div>    
                 </form>
                 <h1 id="city"></h1>
                 <ul>
-                    <li>Last updated: <span id="date"></span></li>
+                    <li><u>LAST UPDATED:</u> 
+                        <div id="date" class="date"></div>
+                    </li>
                     <li id="description"></li>
                 </ul>
                 <div class="row">
@@ -56,70 +58,20 @@
                     </div>
                     <div class="col-6">
                         <ul>
-                            <li> Humidity: <span id="humidity"></span>%</li>
-                            <li> Wind: <span id="wind"></span>Km/H</li>
+                            <li> Humidity: <span id="humidity" class="humidity"></span>%</li>
+                            <li> Wind: <span id="wind" class="wind"></span>Km/H</li>
                         </ul>
                     </div>
                 </div>
+                <div class="row weather-forecast" id="forecast"> 
+                </div>
             </div>
+            <small>
+                <a href="https://github.com/hillham7/Weather-App-Project-final">Open-source code</a> by <a
+                    href="http://www.hillaryhamilton.com/">Hillary Hamilton</a>
+            </small>
         </div>
     </div>
-
-        <div class="card-group">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title">Sunday</h2>
-                    <p class="card-text">WEATHER text</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Monday</h2>
-                        <p class="card-text">WEATHER text</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Tuesday</h2>
-                        <p class="card-text">WEATHER text</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Wednesday</h2>
-                        <p class="card-text">WEATHER text</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Thursday</h2>
-                        <p class="card-text">WEATHER text</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Friday</h2>
-                        <p class="card-text">WEATHER text</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Saturday</h2>
-                        <p class="card-text">WEATHER text</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<small>
-    <a href="https://github.com/hillham7/Weather-App-Project-final">Open-source code</a> by <a href ="http://www.hillaryhamilton.com/">Hillary Hamilton</a>
-</small>
 
 <script src=script.js></script>
 
