@@ -7,7 +7,7 @@ function formatDate(timestamp) {
 }
 
 function formatHours(timestamp) {
-    let date = new Date{timestamp};
+    let date = new Date(timestamp);
     let hours = date.getHours();
     if (hours < 10) {
         hours = `0${hours}`;
@@ -16,6 +16,7 @@ function formatHours(timestamp) {
     if (minutes < 10) {
         minutes = `0${minutes}`;
     }
+
     return `${hours}:${minutes}`;
 }
 
@@ -86,7 +87,6 @@ function displayForecast(response) {
             </div>
         </div>
     `;
-}
 
 function search(city) {
     let apiKey = "9338a3569f57c5ead06164ec6559286c";
@@ -106,6 +106,7 @@ function handleSubmit(event) {
 function displayFahrenheitTemperature(event) {
     event.preventDefault();
     let temperatureElement = document.querySelector("#temperature");
+    
     celsiusLink.classList.remove("active");
     fahrenheitLink.classList.add("active");
     let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
