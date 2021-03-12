@@ -43,7 +43,7 @@ small {
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
 }
 
@@ -53,7 +53,8 @@ small {
 }
 
 .weather-temperature {
-  margin-left: 5%;
+  margin-left: 35%;
+  margin-top: -10%;
 }
 
 .weather-temperature .active {
